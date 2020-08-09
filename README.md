@@ -17,7 +17,7 @@ Table of Contents
          * [Basic global shortcuts](#basic-global-shortcuts)
          * [Default Visual Studio](#default-visual-studio)
          * [Codemaid](#codemaid-1)
-         * [Resharper](#resharper-1)
+         * [ReSharper](#resharper-1)
       * [My favourite code snippets](#my-favourite-code-snippets)
       * [Running &amp; Debugging](#running--debugging)
          * [Running &amp; Debugging keyboard shortcuts](#running--debugging-keyboard-shortcuts)
@@ -41,8 +41,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ### Codemaid
 Code cleanup, restructuring as well as a range of other helpful tools is what you will receive after installing CodeMaid. The nice thing about CodeMaid is, that it works on multiple file types and not only C#.
 
-### Resharper
+### ReSharper
 Everyone's favourite Visual Studio extension. It is not free but if you are at your workplace, chances are that they have Resharper subscriptions for everyone to use. Resharper provides on-the-fly code inspection, code generation, refactoring, lots of keyboard shortcuts to either use in conjunction with the default Visual Studio keymappings or overriding them and much more.
+
+Resharper allows you to:  
+* Write more code with less typing
+* Improve code quality
+* Easily find files, classes, methods, properties etc.
 
 ### Image optimizer
 Right click an image inside Visual Studio and heavily reduce image size using a single click.
@@ -62,12 +67,20 @@ Viasfora adds alot of different features, different highlightings, bracket highl
 ### Object Exporter
 Object Exporter lets you export out an object while debugging in Visual Studio, the object can be serialized in either C#, JSON or XML.
 
+## How to setup ReSharper
+When you first get ReSharper, you are asked to setup your keyboard shortcuts scheme.  
+If you are most common to .NET you should select the "Visual Studio" scheme.
+
+If you want to change it later you can go to ReSharper -> Options -> Environment -> Keyboard & Menus
+
+Another thing you need to know is that some of the ReSharper shortcuts are in conflict with the default Visual Studio shortcuts. The recommended thing to do whenever you get a conflicting shortcut popup is to apply the ReSharper shortcuts everywhere.
+
 ## My favourite keyboard shortcuts
 
 ### Basic global shortcuts
 * Move selection one tab stop to the right: **Tab**
 * Move selection one tab stop to the left: **Shift + Tab**
-* Copy/Cut selection or current line: **Ctrl + C / Ctrl + X**
+* Copy/Cut selection or current line: **Ctrl + C AND Ctrl + X**
 * Select text from cursor position to the end of the line: **Shift + End**
 * Select text from cursor position to the beginning of the line: **Shift + Home**
 * Jump to beginning of line: **Ctrl + Home**
@@ -81,7 +94,7 @@ Object Exporter lets you export out an object while debugging in Visual Studio, 
     * Go to the last place of the cursor: **Ctrl + -**
     * Go to the last place of the cursor (reverse): **Ctrl + Shift + -**
 * Searching
-    * Search everywhere/Go to all: **Ctrl T**
+    * Search everywhere/Go to all: **Ctrl + T**
     * Go to file: **Ctrl + Shift + T**
     * Search current file: **Ctrl + F**
     * Search entire solution: **Ctrl + Shift + F**
@@ -98,15 +111,40 @@ Object Exporter lets you export out an object while debugging in Visual Studio, 
     * Expand/Collapse a code block: **Ctrl + M, Ctrl + M**
 
 ### Codemaid
-* Go to the current file in project structure: **Ctrl + M, F**
+* Go to the current file in solution explorer: **Ctrl + M, F**
 * Cleanup & Format the currrent file: **Ctrl + M, Space**
-* Start Codemain Spade (tree view of project with drag and drop): **Ctrl + M, .**
-* Reorgnaize methods/fields to follow Microsoft's convention: **Ctrl + M, Z**
+* Start Codemaid Spade (tree view of project with drag and drop): **Ctrl + M, .**
+* Reorganize methods/fields to follow Microsoft's convention: **Ctrl + M, Z**
 
-### Resharper
+### ReSharper
+* The golden shortcut (for private field initialization and much more): **Alt + Enter** 
+* Fast name typing: Type the upper case letters of a class/method. For instance ANE for ArgumentNullException.
+* Activate autocompletion: **Ctrl + Space**.
+* Go to file in solution explorer (if you do not have Codemaid): **Shift + Alt + L**.
+* Search everywhere/Go to all (same as default): **Ctrl + T**
+* Go to file (same as default): **Ctrl + Shift + T**
+* Activate the File Member window: **Alt + \\**
+* Expand/shrink code selection: **Ctrl + W AND Ctrl + Shift + W**
 
 ## My favourite code snippets
 TODO
+
+## ReSharper Live Templates
+Sometimes you have blocks of code that you constantly have to type over and over. If you want to defined your own code blocks that can be generated using keywords you can use ReSharper live templates.
+
+### Create Live Template
+1. Select the code block/snippet
+2. ReSharper --> Tools --> Create Live Template from Selection
+3. Create and edit
+4. Type in a shortcut name and description
+5. Optional: Surround the parts you want to be dynamic with a dollar sign "$"
+5. Ctrl + S to save it
+
+### Edit Live Template
+1. ReSharper --> Tools --> Templates Explorer
+2. Select the template --> Edit Template
+3. Ctrl + S to save it
+
 
 ## Running & Debugging
 ### Running & Debugging keyboard shortcuts
