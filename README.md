@@ -1,4 +1,4 @@
-# C# Developers: Double Your Coding Speed With Visual Studio
+# Visual Studio 2019 Tips and Keyboard Shortcuts
 
 ## My favourite extensions
 
