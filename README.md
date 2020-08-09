@@ -28,6 +28,15 @@ Object Exporter lets you export out an object while debugging in Visual Studio, 
 
 ## My favourite keyboard shortcuts
 
+### Basic global shortcuts
+* Move selection one tab stop to the right: **Tab**
+* Move selection one tab stop to the left: **Shift + Tab**
+* Copy/Cut selection or current line: **Ctrl + C / Ctrl + X**
+* Select text from cursor position to the end of the line: **Shift + End**
+* Select text from cursor position to the beginning of the line: **Shift + Home**
+* Jump to beginning of line: **Ctrl + Home**
+* Jump to end of line: **Ctrl + End**
+
 ### Default Visual Studio
 * Code navigation
     * Go to definition of variable/method: **F12**
@@ -49,6 +58,8 @@ Object Exporter lets you export out an object while debugging in Visual Studio, 
     * Uncomment block: **Ctrl + K, Ctrl + U**
 * Formatting
     * Format document: **Ctrl + K + D**
+* Expanding/Collapsing
+    * Expand/Collapse a code block: **Ctrl + M, Ctrl + M**
 
 ### Codemaid
 * Go to the current file in project structure: **Ctrl + M, F**
@@ -61,8 +72,8 @@ Object Exporter lets you export out an object while debugging in Visual Studio, 
 ## My favourite code snippets
 TODO
 
-## Debugging
-### Debugging keyboard shortcuts
+## Running & Debugging
+### Running & Debugging keyboard shortcuts
 * Breakpoint: **F9**
 * Show all breakpoints: **Ctrl + Alt + B**
 * Run in debug mode/continue until next breakpoint: **F5**
