@@ -1,5 +1,41 @@
 # Visual Studio 2019 Tips and Keyboard Shortcuts
 
+Table of Contents
+=================
+
+   * [Visual Studio 2019 Tips and Keyboard Shortcuts](#visual-studio-2019-tips-and-keyboard-shortcuts)
+      * [My favourite extensions](#my-favourite-extensions)
+         * [Codemaid](#codemaid)
+         * [Resharper](#resharper)
+         * [Image optimizer](#image-optimizer)
+         * [File icons](#file-icons)
+         * [File nesting](#file-nesting)
+         * [VSColorOutput/Output enhancer](#vscoloroutputoutput-enhancer)
+         * [Viasfora](#viasfora)
+         * [Object Exporter](#object-exporter)
+      * [My favourite keyboard shortcuts](#my-favourite-keyboard-shortcuts)
+         * [Basic global shortcuts](#basic-global-shortcuts)
+         * [Default Visual Studio](#default-visual-studio)
+         * [Codemaid](#codemaid-1)
+         * [Resharper](#resharper-1)
+      * [My favourite code snippets](#my-favourite-code-snippets)
+      * [Running &amp; Debugging](#running--debugging)
+         * [Running &amp; Debugging keyboard shortcuts](#running--debugging-keyboard-shortcuts)
+         * [Debugging windows](#debugging-windows)
+            * [Watch window](#watch-window)
+            * [Call stack](#call-stack)
+            * [Autos](#autos)
+            * [Locals](#locals)
+         * [Debugging useful tips](#debugging-useful-tips)
+            * [Unhelpful exception message](#unhelpful-exception-message)
+            * [Debugging tests](#debugging-tests)
+      * [Common issues](#common-issues)
+         * [Restart Visual Studio](#restart-visual-studio)
+         * [Clear cache and restart resharper](#clear-cache-and-restart-resharper)
+         * [Delete .vs folder](#delete-vs-folder)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
 ## My favourite extensions
 
 ### Codemaid
