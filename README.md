@@ -4,21 +4,26 @@ Table of Contents
 =================
 
    * [Visual Studio 2019 Tips and Keyboard Shortcuts](#visual-studio-2019-tips-and-keyboard-shortcuts)
+   * [Table of Contents](#table-of-contents)
       * [My favourite extensions](#my-favourite-extensions)
          * [Codemaid](#codemaid)
-         * [Resharper](#resharper)
+         * [ReSharper](#resharper)
          * [Image optimizer](#image-optimizer)
          * [File icons](#file-icons)
          * [File nesting](#file-nesting)
          * [VSColorOutput/Output enhancer](#vscoloroutputoutput-enhancer)
          * [Viasfora](#viasfora)
          * [Object Exporter](#object-exporter)
+      * [How to setup ReSharper](#how-to-setup-resharper)
       * [My favourite keyboard shortcuts](#my-favourite-keyboard-shortcuts)
          * [Basic global shortcuts](#basic-global-shortcuts)
          * [Default Visual Studio](#default-visual-studio)
          * [Codemaid](#codemaid-1)
          * [ReSharper](#resharper-1)
       * [My favourite code snippets](#my-favourite-code-snippets)
+      * [ReSharper Live Templates](#resharper-live-templates)
+         * [Create Live Template](#create-live-template)
+         * [Edit Live Template](#edit-live-template)
       * [Running &amp; Debugging](#running--debugging)
          * [Running &amp; Debugging keyboard shortcuts](#running--debugging-keyboard-shortcuts)
          * [Debugging windows](#debugging-windows)
@@ -127,7 +132,25 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
 * Expand/shrink code selection: **Ctrl + W AND Ctrl + Shift + W**
 
 ## My favourite code snippets
-TODO
+* **class**: Create a class
+* **ctor**: Create a constructor
+* **interface**: Create an interface
+* **cw**: Create a Console.WriteLine() line
+* Properties/methods within a class:
+    * **prop**: Create an auto-implemented property
+    * **propfull**: Create a property with a private field
+    * **equals**: Override the Equals method of the base class
+* Loops:
+    * **for**: Create a for loop
+    * **forr**: Create a for loop with a decrementing loop variable
+    * **foreach**: Create a foreach loop
+    * **while**: Create a while loop
+    * **do**: Create a do loop
+* Exceptions:
+    * **try**: Create a try/catch block
+    * **tryf**: Create a try/finally block
+
+> Note: If the code snippet has dynamic variables to fill in, press Tab to move to the next one.
 
 ## ReSharper Live Templates
 Sometimes you have blocks of code that you constantly have to type over and over. If you want to defined your own code blocks that can be generated using keywords you can use ReSharper live templates.
@@ -138,13 +161,12 @@ Sometimes you have blocks of code that you constantly have to type over and over
 3. Create and edit
 4. Type in a shortcut name and description
 5. Optional: Surround the parts you want to be dynamic with a dollar sign "$"
-5. Ctrl + S to save it
+5. Ctrl + S to save
 
 ### Edit Live Template
 1. ReSharper --> Tools --> Templates Explorer
 2. Select the template --> Edit Template
-3. Ctrl + S to save it
-
+3. Ctrl + S to save
 
 ## Running & Debugging
 ### Running & Debugging keyboard shortcuts
