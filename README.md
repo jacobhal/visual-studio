@@ -131,6 +131,12 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
 * Activate the File Member window: **Alt + \\**
 * Expand/shrink code selection: **Ctrl + W AND Ctrl + Shift + W**
 
+Personally I would recommend assinging Window.CloseDocumentWindow in Tools --> Options --> Keyboard to Ctrl + W and remove the Ctrl + W shortcut for Edit.SelectCurrentWord. This shortcut closes the currently open document/tab which is how Visual Studio Code and a lot of different editors work.
+
+You can then remap the ReSharper shortcuts for extend/shrink selection: 
+1. ReSharper.ReSharper_ExtendSelection to Ctrl + B
+2. ReSharper.ReSharper_ShrinkSelection to Ctrl + Shift + B
+
 ## My favourite code snippets
 * **class**: Create a class
 * **ctor**: Create a constructor
