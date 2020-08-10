@@ -16,6 +16,7 @@ Table of Contents
          * [Viasfora](#viasfora)
          * [Object Exporter](#object-exporter)
       * [How to setup ReSharper](#how-to-setup-resharper)
+        * [My way of setting up ReSharper](#my-way-of-setting-up-resharper)
       * [My favourite keyboard shortcuts](#my-favourite-keyboard-shortcuts)
          * [Basic global shortcuts](#basic-global-shortcuts)
          * [Default Visual Studio](#default-visual-studio)
@@ -81,6 +82,13 @@ If you want to change it later you can go to ReSharper -> Options -> Environment
 
 Another thing you need to know is that some of the ReSharper shortcuts are in conflict with the default Visual Studio shortcuts. The recommended thing to do whenever you get a conflicting shortcut popup is to apply the ReSharper shortcuts everywhere.
 
+### My way of setting up ReSharper
+1. Go to Tools --> Options --> General --> Environment and click *Reset* to reset keyboard shortcuts.
+2. In the dropdown of the same window, select *ReSharper (Visual Studio)* instead of *default*.
+3. Go to Extensions --> ReSharper --> Options --> Environment --> Keyboard & Menus and make sure "Override Visual Studio refactorings", "Hide overriden Visual Studio menu items" and "Use Alt+R shortcut to open ReSharper menu in Visual Studio 2019 is checked. Then select the Visual Studio keyboard scheme and click *Apply Scheme*.
+4. Go back into Tools --> Options --> General --> Environment and assign *Window.CloseDocumentWindow* in to Ctrl + W and remove the Ctrl + W shortcut for *Edit.SelectCurrentWord*. Assign Alt + S as the new shortcut for *Edit.SelectCurrentWord* and Alt + Shift + S to *ReSharper.ReSharper_ShrinkSelection*.
+5. Whenever the popup of conflicting keyboard shortcuts appear, select the ReSharper shortcuts as preference and check "Apply for all".
+
 ## My favourite keyboard shortcuts
 
 ### Basic global shortcuts
@@ -99,6 +107,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
     * Show all references: **Shift + F12**
     * Go to the last place of the cursor: **Ctrl + -**
     * Go to the last place of the cursor (reverse): **Ctrl + Shift + -**
+    * Go to Line: **Ctrl + G**
 * Searching
     * Search everywhere/Go to all: **Ctrl + T**
     * Go to file: **Ctrl + Shift + T**
@@ -130,13 +139,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
 * Search everywhere/Go to all (same as default): **Ctrl + T**
 * Go to file (same as default): **Ctrl + Shift + T**
 * Activate the File Member window: **Alt + \\**
-* Expand/shrink code selection: **Ctrl + W AND Ctrl + Shift + W**
-
-Personally I would recommend assinging Window.CloseDocumentWindow in Tools --> Options --> Keyboard to Ctrl + W and remove the Ctrl + W shortcut for Edit.SelectCurrentWord. This shortcut closes the currently open document/tab which is how Visual Studio Code and a lot of different editors work.
-
-You can then remap the ReSharper shortcuts for extend/shrink selection: 
-1. ReSharper.ReSharper_ExtendSelection to Ctrl + B
-2. ReSharper.ReSharper_ShrinkSelection to Ctrl + Shift + B
+* Expand/shrink code selection: **Ctrl + W AND Ctrl + Shift + W** (I recommend switching these out)
 
 ## My favourite code snippets
 * **class**: Create a class
