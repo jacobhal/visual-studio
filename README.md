@@ -116,7 +116,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
     * Search current file: **Ctrl + F**
     * Search entire solution: **Ctrl + Shift + F**
 * Editing
-    * Move lines up or down: **Alt + Up/Down arrow**
+    * Move lines up or down: **Alt + Up/Down arrow** (Will be move to prev/next method if you use ReSharper shortcuts)
     * Replace in current file: **Ctrl + H**
     * Replace in entire solution: **Ctrl + Shift + H**
 * Commenting
@@ -142,6 +142,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
 * Go to file (same as default): **Ctrl + Shift + T**
 * Activate the File Member window: **Alt + \\**
 * Expand/shrink code selection: **Ctrl + W AND Ctrl + Shift + W** (I recommend switching these out)
+* Move code block up/down: **Ctrl + Shift + Alt + Up/Down arrow**
 
 ## My favourite code snippets
 * **class**: Create a class
