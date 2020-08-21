@@ -110,6 +110,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
     * Go to the last place of the cursor: **Ctrl + -**
     * Go to the last place of the cursor (reverse): **Ctrl + Shift + -**
     * Go to Line: **Ctrl + G**
+    * Properties (with cursor on project/solution): **Alt + Enter**
 * Searching
     * Search everywhere/Go to all: **Ctrl + T**
     * Go to file: **Ctrl + Shift + T**
@@ -233,3 +234,11 @@ In menu, Tools > Options > ReSharper > General > Suspend / Restore
 
 ### Delete .vs folder
 Try to delete the .vs folder and then run Clean + Rebuild.
+
+## General tips
+
+### Upgrading .NET version
+1. Go into your projects' properties and change target framework version to whatever you want.
+
+2. Run `Update-Package` or `Update-Package -reinstall` to update/reinstall all packages in all the projects of the solution. You can also do this process for only certain projects or choose to only reinstall the packages with the *requireReinstallation="true"* attribute by going over them one by one.
+
