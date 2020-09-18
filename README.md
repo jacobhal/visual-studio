@@ -210,11 +210,17 @@ Like Autos but with a local scope.
 ### Debugging useful tips
 
 #### Unhelpful exception message
+##### Option 1
 Whenever you are facing hard bugs and get exceptions that don't really make sense or relate to your actual problem you can modify the exception sensitivity and get more exceptions:
 
 Debug --> Window --> Exception Settings
 
 Under "Common Language Runtime Exceptions", enable all exceptions.
+
+##### Option 2
+Search in Windows for "Event Viewer" -> Windows Logs -> Application.
+
+Sometimes you can find extra information there if you cannot find any logs or crashes when debugging.
 
 #### Debugging tests
 Set a breakpoint in the test, then go into Test Explorer and rightclick and select ”Debug Selected Tests”.
