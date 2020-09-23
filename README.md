@@ -101,6 +101,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
 * Select text from cursor position to the beginning of the line: **Shift + Home**
 * Jump to beginning of line: **Ctrl + Home**
 * Jump to end of line: **Ctrl + End**
+* Take a screenshot and save to clipboard: **Windows key + Shift + S**
 
 ### Default Visual Studio
 * Code navigation
