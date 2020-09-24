@@ -121,6 +121,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
     * Move lines up or down: **Alt + Up/Down arrow** (Will be move to prev/next method if you use ReSharper shortcuts)
     * Replace in current file: **Ctrl + H**
     * Replace in entire solution: **Ctrl + Shift + H**
+    * Surround marked code with code block: **Ctrl + K, Ctrl + S**
 * Commenting
     * Comment block: **Ctrl + K, Ctrl + C**
     * Uncomment block: **Ctrl + K, Ctrl + U**
