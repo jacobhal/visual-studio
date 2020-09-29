@@ -86,7 +86,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
 1. Go to Tools --> Options --> Environment --> Keyboard and click *Reset* to reset keyboard shortcuts.
 2. In the dropdown of the same window, select *ReSharper (Visual Studio)* instead of *default*.
 3. Go to Extensions --> ReSharper --> Options --> Environment --> Keyboard & Menus and make sure "Override Visual Studio refactorings", "Hide overriden Visual Studio menu items" and "Use Alt+R shortcut to open ReSharper menu in Visual Studio 2019 is checked. Then select the Visual Studio keyboard scheme and click *Apply Scheme*.
-4. Go back into Tools --> Options --> General --> Environment
+4. Go back into Tools --> Options --> Environment --> Keyboard
     * Assign *Window.CloseDocumentWindow* to Ctrl + W and remove the Ctrl + W shortcut for *Edit.SelectCurrentWord*. Assign Alt + S as the new shortcut for *Edit.SelectCurrentWord* and Alt + Shift + S to *ReSharper.ReSharper_ShrinkSelection*.
     * Remove the shortcut for *ReSharper.ReSharper_LineComment* in order to do curly brackets with Ctrl + Alt + 7.
 5. Whenever the popup of conflicting keyboard shortcuts appear, select the ReSharper shortcuts as preference and check "Apply for all".
