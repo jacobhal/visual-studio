@@ -83,7 +83,7 @@ If you want to change it later you can go to ReSharper -> Options -> Environment
 Another thing you need to know is that some of the ReSharper shortcuts are in conflict with the default Visual Studio shortcuts. The recommended thing to do whenever you get a conflicting shortcut popup is to apply the ReSharper shortcuts everywhere.
 
 ### My way of setting up ReSharper
-1. Go to Tools --> Options --> General --> Environment and click *Reset* to reset keyboard shortcuts.
+1. Go to Tools --> Options --> Environment --> Keyboard and click *Reset* to reset keyboard shortcuts.
 2. In the dropdown of the same window, select *ReSharper (Visual Studio)* instead of *default*.
 3. Go to Extensions --> ReSharper --> Options --> Environment --> Keyboard & Menus and make sure "Override Visual Studio refactorings", "Hide overriden Visual Studio menu items" and "Use Alt+R shortcut to open ReSharper menu in Visual Studio 2019 is checked. Then select the Visual Studio keyboard scheme and click *Apply Scheme*.
 4. Go back into Tools --> Options --> General --> Environment
