@@ -229,20 +229,25 @@ Sometimes you can find extra information there if you cannot find any logs or cr
 Set a breakpoint in the test, then go into Test Explorer and rightclick and select ”Debug Selected Tests”.
 
 ## Common issues
+
+### Resharper not working properly
 Sometimes Resharper complains even if there are no errors, try these things to solve it:
 
-### Restart Visual Studio
+#### Restart Visual Studio
 Restarting Visual Studio does the trick most of the time.
 
-### Clear cache and restart resharper
+#### Clear cache and restart resharper
 In menu, ReSharper > Options > Environment > General > Clear Caches 
 
 and disabling and re-enabling ReSharper:
 
 In menu, Tools > Options > ReSharper > General > Suspend / Restore
 
-### Delete .vs folder
+#### Delete .vs folder
 Try to delete the .vs folder and then run Clean + Rebuild.
+
+### Tests not running
+This could depend on a few different things, one could be that the app.config contains dependentassemblies with multiple definitions.
 
 ## General tips
 
