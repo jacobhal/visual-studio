@@ -112,6 +112,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
     * Go to the last place of the cursor (reverse): **Ctrl + Shift + -**
     * Go to Line: **Ctrl + G**
     * Properties (with cursor on project/solution): **Alt + Enter**
+    * Clipboard history **Ctrl + Shift + V**
 * Searching
     * Search everywhere/Go to all: **Ctrl + T**
     * Go to file: **Ctrl + Shift + T**
