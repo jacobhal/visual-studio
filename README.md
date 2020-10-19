@@ -34,6 +34,7 @@ Table of Contents
             * [Autos](#autos)
             * [Locals](#locals)
          * [Debugging useful tips](#debugging-useful-tips)
+            * [Create JSON From Object During Debugging](#create-json-from-object-during-debugging)
             * [Unhelpful exception message](#unhelpful-exception-message)
             * [Debugging tests](#debugging-tests)
       * [Common issues](#common-issues)
@@ -216,7 +217,7 @@ Like Autos but with a local scope.
 #### Create JSON From Object During Debugging
 Type the following in the Immediate window to get a JSON string:
 
-Newtonsoft.Json.JsonConvert.SerializeObject(obj)
+`Newtonsoft.Json.JsonConvert.SerializeObject(obj)`
 
 #### Unhelpful exception message
 ##### Option 1
