@@ -213,6 +213,11 @@ Like Autos but with a local scope.
 
 ### Debugging useful tips
 
+#### Create JSON From Object During Debugging
+Type the following in the Immediate window to get a JSON string:
+
+Newtonsoft.Json.JsonConvert.SerializeObject(obj)
+
 #### Unhelpful exception message
 ##### Option 1
 Whenever you are facing hard bugs and get exceptions that don't really make sense or relate to your actual problem you can modify the exception sensitivity and get more exceptions:
