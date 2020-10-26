@@ -149,6 +149,7 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
 * Expand/shrink code selection: **Ctrl + W AND Ctrl + Shift + W** (I recommend switching these out)
 * Move code block up/down: **Ctrl + Shift + Alt + Up/Down arrow**
 * Refactor: **Ctrl + Shift + R**
+* Reformat code: **Ctrl + Alt + Enter**
 
 ## My favourite code snippets
 * **class**: Create a class
