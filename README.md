@@ -257,6 +257,9 @@ Try to delete the .vs folder and then run Clean + Rebuild.
 ### Tests not running
 This could depend on a few different things, one could be that the app.config contains dependentassemblies with multiple definitions.
 
+### [BadImageFormatException: Cannot load a reference assembly for execution.]
+This error can occur when you start a .NET application. The solution to this is often to remove bin/obj folders but can also be related to other things.
+
 ## General tips
 
 ### Upgrading .NET version
