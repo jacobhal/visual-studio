@@ -35,6 +35,7 @@ Table of Contents
             * [Locals](#locals)
          * [Debugging useful tips](#debugging-useful-tips)
             * [Create JSON From Object During Debugging](#create-json-from-object-during-debugging)
+            * [AutoMapper not working properly](#automapper-not-working-properly)
             * [Unhelpful exception message](#unhelpful-exception-message)
                * [Option 1](#option-1)
                * [Option 2](#option-2)
