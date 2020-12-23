@@ -227,6 +227,14 @@ Type the following in the Immediate window to get a JSON string:
 
 `Newtonsoft.Json.JsonConvert.SerializeObject(obj)`
 
+#### AutoMapper not working properly
+Add the following after your mapper configuration in order to verify that it is valid:
+
+```csharp
+var config = new MapperConfiguration(cfg => {...});
+config.AssertConfigurationIsValid(); // Add this!
+````
+
 #### Unhelpful exception message
 ##### Option 1
 Whenever you are facing hard bugs and get exceptions that don't really make sense or relate to your actual problem you can modify the exception sensitivity and get more exceptions:
