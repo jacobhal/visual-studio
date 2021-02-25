@@ -15,6 +15,7 @@ Table of Contents
          * [VSColorOutput/Output enhancer](#vscoloroutputoutput-enhancer)
          * [Viasfora](#viasfora)
          * [Object Exporter](#object-exporter)
+         * [Open in Visual Studio Code](#open-in-visual-studio-code)
       * [How to setup ReSharper](#how-to-setup-resharper)
          * [My way of setting up ReSharper](#my-way-of-setting-up-resharper)
       * [My favourite keyboard shortcuts](#my-favourite-keyboard-shortcuts)
@@ -82,6 +83,9 @@ Viasfora adds alot of different features, different highlightings, bracket highl
 
 ### Object Exporter
 Object Exporter lets you export out an object while debugging in Visual Studio, the object can be serialized in either C#, JSON or XML.
+
+### Open in Visual Studio Code
+Open files in Visual Studio Code.
 
 ## How to setup ReSharper
 When you first get ReSharper, you are asked to setup your keyboard shortcuts scheme.  
