@@ -136,6 +136,8 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
     * Replace in current file: **Ctrl + H**
     * Replace in entire solution: **Ctrl + Shift + H**
     * Surround marked code with code block: **Ctrl + K, Ctrl + S**
+    * Make upper case: **Ctrl + Shift + U**
+    * Make lower case: **Ctrl + U**
 * Commenting
     * Comment block: **Ctrl + K, Ctrl + C**
     * Uncomment block: **Ctrl + K, Ctrl + U**
