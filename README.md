@@ -234,6 +234,10 @@ Type the following in the Immediate window to get a JSON string:
 
 `Newtonsoft.Json.JsonConvert.SerializeObject(obj)`
 
+Or this to get the result in a file:
+
+`(new System.Xml.Serialization.XmlSerializer(obj.GetType())).Serialize(new System.IO.StreamWriter(@"c:\temp\text.xml"), obj)`
+
 #### AutoMapper not working properly
 Add the following after your mapper configuration in order to verify that it is valid:
 
