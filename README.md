@@ -1,4 +1,4 @@
-# Visual Studio 2019 Tips and Keyboard Shortcuts
+# Visual Studio Tips and Keyboard Shortcuts
 This README contains the most useful keyboard shortcuts, extensions and some general/debugging tips in Visual Studio.
 
 Table of Contents
