@@ -104,7 +104,8 @@ Another thing you need to know is that some of the ReSharper shortcuts are in co
     * Assign Shift + Alt + Right arrow as the new shortcut for *Edit.SelectCurrentWord* and Shift + Alt + Left arrow to *ReSharper.ReSharper_ShrinkSelection*.
     * Remove the shortcut for *ReSharper.ReSharper_LineComment* in order to do curly brackets with Ctrl + Alt + 7.
     * Assign *View.NavigateBackward* to Alt + Left arrow and *View.NavigateForward* to Alt + Right arrow
-    * Assign Resharper.Resharper_LocateInSolutionOrAssemblyExplorer to Shift + Alt + L
+    * Assign *Resharper.Resharper_LocateInSolutionOrAssemblyExplorer* to Shift + Alt + L
+    * Assign *Edit.MovesSelectedLinesUp* to Alt + Up arrow and *Edit.MovesSelectedLinesDown* to Alt + Down arrow
 5. Whenever the popup of conflicting keyboard shortcuts appear, select the ReSharper shortcuts as preference and check "Apply for all".
 
 ## My favourite keyboard shortcuts
