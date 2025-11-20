@@ -2,7 +2,7 @@
 
 * Ctrl + P: Search files/members
   * Ctrl + 1 + M/F: Switch between file/member search
-* Ctrl + shift + P: Search features
+* Ctrl + Shift + P: Search features
 * Alt + Shift + drag: Block select text to edit
 * Ctrl + Alt + Up/Down: Add multiple cursors above/below
 * Shift + Alt + Left/Right: Extend/shrink selection
