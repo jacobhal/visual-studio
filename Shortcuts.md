@@ -1,8 +1,8 @@
 ## New shortcut preferences for VS 2026 Insiders/Vscode
 
-* Ctrl + p: Search files/members
-  * Ctrl + 1 + m/f: Switch between file/member search
-* Ctrl + shift + p: Search features
+* Ctrl + P: Search files/members
+  * Ctrl + 1 + M/F: Switch between file/member search
+* Ctrl + shift + P: Search features
 * Alt + Shift + drag: Block select text to edit
 * Ctrl + Alt + Up/Down: Add multiple cursors above/below
 * Shift + Alt + Left/Right: Extend/shrink selection
