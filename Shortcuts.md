@@ -12,5 +12,6 @@
 * Ctrl + K + C/U: Comment/uncomment
 * Alt + Up/Down: Move line up/down
 * Windows + V: Windows history paste
-* Ctrl + Shift + R: Refactor (Extract Method)
+* Ctrl + R -> Ctrl + M: Refactor (Extract Method)
+* Ctrl + R -> Ctrl + I: Refactor (Extract Interface)
 * F2: Rename all references
