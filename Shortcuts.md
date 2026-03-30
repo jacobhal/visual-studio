@@ -14,4 +14,5 @@
 * Windows + V: Windows history paste
 * Ctrl + R -> Ctrl + M: Refactor (Extract Method)
 * Ctrl + R -> Ctrl + I: Refactor (Extract Interface)
+* Ctrl + R -> Ctrl + O: Refactor (Reorder parameters)
 * F2: Rename all references
